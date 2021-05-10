@@ -1,0 +1,33 @@
+# idea stuff:
+.idea
+__pycache__
+
+# vscode
+.vscode
+
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# ckpt
+ckpt/GDS/
+ckpt/NYT-10/
+ckpt/ckpt.tar.gz
+
+# Baselines folders
+baselines_pr/GDS/
+baselines_pr/NYT-10/
+baselines_pr/baselines_pr.tar.gz
+
+# Benchmark datasets folders
+benchmark/GDS-enhanced/
+benchmark/NYT-10-enhanced/
+benchmark/benchmark.tar.gz
+
+# Results folders
+outputs/
