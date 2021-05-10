@@ -15,9 +15,9 @@ env.bak/
 venv.bak/
 
 # ckpt
-ckpt/GDS/
-ckpt/NYT-10/
-ckpt/ckpt.tar.gz
+experiments/ckpt/GDS/
+experiments/ckpt/NYT-10/
+experiments/ckpt/ckpt.tar.gz
 
 # Baselines folders
 baselines_pr/GDS/
@@ -29,5 +29,8 @@ benchmark/GDS-enhanced/
 benchmark/NYT-10-enhanced/
 benchmark/benchmark.tar.gz
 
+# Experiments
+
+
 # Results folders
-outputs/
+experiments/outputs/
