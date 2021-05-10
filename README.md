@@ -3,7 +3,7 @@
 
 This repository contains the code of our paper:<br />
 [Improving Distantly-Supervised Relation Extraction through BERT-based Label & Instance Embedding](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9405641)<br />
-Despina Christou; Grigorios Tsoumakas
+Despina Christou and Grigorios Tsoumakas
 
 <h5 align="center">
   <img width="600" align="center"  src="./paper_images/REDSandT_model.jpg" " alt="...">
