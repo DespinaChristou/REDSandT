@@ -1,0 +1,25 @@
+{
+  "train_data_path": "benchmark/GDS-enhanced/train_prep.tsv",
+  "val_data_path": "benchmark/GDS-enhanced/val_prep.tsv",
+  "test_data_path": "benchmark/GDS-enhanced/test_prep.tsv",
+  "encoder":{
+    "max_length": 64,
+    "num_labels": 5,
+    "pretrained_model":"bert-base-cased",
+    "encoder_dropout": 0.0,
+    "freeze_bert": "True",
+    "text_stp": "True",
+    "entity_types": "True"
+  },
+  "framework": {
+    "batch_size": 32,
+    "max_epoch": 3,
+    "lr": 5.5e-5,
+    "weight_decay": 0.001,
+    "warmup_step_ratio": 0.001,
+    "opt": "adamw",
+    "bag_size": 2,
+    "selector_dropout": 0.4,
+    "weighted_loss": "True"
+  }
+}
